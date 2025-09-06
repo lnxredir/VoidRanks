@@ -1,7 +1,3 @@
-Absolutely! Here's a clean, professional **README** for your **VoidRanks** plugin:
-
----
-
 # VoidRanks
 
 VoidRanks is a **Paper/Spigot Minecraft plugin** that integrates with **LuckPerms** to automatically promote and demote players based on their playtime. All messages are configurable and support colored ranks.
@@ -112,17 +108,3 @@ settings:
 * Promotions and demotions are based on **minutes played/offline**.
 * The plugin **does not rename LuckPerms groups** automatically. Make sure your LuckPerms groups match the `ranks` names.
 * The `/vranks reload` command updates **messages, display names, and times**, but does **not migrate renamed ranks**.
-
----
-
-## Support
-
-* For bugs, feature requests, or help, please open an issue on the GitHub repository.
-
----
-
-This README is ready to go into your GitHub repository.
-
-If you want, I can also **add a “Visual Rank Progression” diagram** to the README showing Escudeiro → Rei with promotions and demotions — it looks nice for players and admins.
-
-Do you want me to do that?
