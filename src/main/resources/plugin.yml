@@ -1,0 +1,19 @@
+name: VoidRanks
+main: lneux.voidRanks.VoidRanks
+version: 1.0.0
+api-version: 1.20
+author: Nathan
+commands:
+  vranks:
+    description: Admin command for VoidRanks
+    permission: voidranks.admin
+  ptime:
+    description: Shows your playtime, current rank, and time until next rank
+    permission: voidranks.ptime
+permissions:
+  voidranks.admin:
+    description: Allows admin to manage VoidRanks
+    default: op
+  voidranks.ptime:
+    description: Allows player to check their playtime
+    default: true

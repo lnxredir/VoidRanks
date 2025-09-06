@@ -1,0 +1,19 @@
+# O tempo é marcado em MINUTOS
+# Exemplo: 'time: 60' = 1 hora.
+ranks:
+  - name: "Novato"
+    time: 0
+  - name: "Membro"
+    time: 60
+  - name: "Veterano"
+    time: 240
+  - name: "Elite"
+    time: 720
+
+messages:
+  promoted: "&aParabéns! Você foi promovido para &e{rank}&a!"
+  promoted_final: "&6&l{player} alcançou o rank máximo: &e{rank}&6&l!"
+
+# minutos extras de tolerância antes de promover/demotar, coloque 0 para desativar.
+settings:
+  grace_period: 5
